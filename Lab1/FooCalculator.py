@@ -7,6 +7,9 @@ class FooCalculator:
 
     def sum(self, m, n):
         return c.sum(m,n)
+
+    def divide(self, m, n):
+        return c.divide(m,n)
     
 cal = FooCalculator()
 print(cal.sum(3,2))
