@@ -1,6 +1,6 @@
 import lab1 as c
 import unittest
- 
+
 class TestAdd(unittest.TestCase):
  
     def test_add_integers_positive(self):

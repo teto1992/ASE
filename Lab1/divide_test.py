@@ -1,6 +1,6 @@
 import lab1 as c
 import unittest
- 
+
 class TestDivide(unittest.TestCase):
  
     def test_divide_integers_positive(self):
@@ -42,6 +42,5 @@ class TestDivide(unittest.TestCase):
     def test_divide_by_zero(self):
        self.assertRaises(ZeroDivisionError, c.divide, 6, 0)
         
-
 if __name__ == '__main__':
     unittest.main()
